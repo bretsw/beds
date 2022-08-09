@@ -7,43 +7,46 @@
 
 h1, h2, h3 {
   font-family: "Lato";
-  color: #D68C45;
+  color: #464646;
 }
 
 h1 {
-  font-size: 30px !important;
-  font-weight: bold;
+  font-size: 32px !important;
+  font-weight: 700;
 }
 
 h2 {
-  font-size: 20px !important;
+  font-size: 24px !important;
+  font-weight: 600;
 }
 
 h3 {
-  font-size: 16px !important;
+  font-size: 18px !important;
+  font-weight: 500;
 }
 
 body {
   font-family: "Cormorant Garamond", serif;
-  color: #23373B;
+  color: #464646;
   font-size: 18px !important;
+  font-weight: 300;
 }
 
 a {
-color: #23373B;
+color: #782f40;
 }
 
 dt {
-  color: #23373B;
+  color: #464646;
 }
 
 .book .book-summary {
-  background-color: #23373B;
+  background-color: #782f40;
 }
 
 .book .book-summary ul.summary li a:hover {
-  background-color: #ffffff;
-  color: #ffbc49;
+  background-color: #f3eee2;
+  color: #782f40;
 }
 
 .book .book-summary {
@@ -52,18 +55,18 @@ dt {
 }
 
 .book .book-summary ul.summary li a {
-  color: #aaa;
+  color: #782f40;
 }
 
 .book .book-summary ul.summary li.active>a {
-  color: #ffffff;
+  color: #ceb888;
 }
 
 .book .book-summary ul.summary li a:hover {
-  background-color: #ffffff;
-  color: #23373B;
+  background-color: #f3eee2;
+  color: #782f40;
 }
 
 .book .book-summary .booksearch li a {
-  color: #ffffff;
+  color: #f3eee2;
 }

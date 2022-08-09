@@ -55,7 +55,7 @@ In my own journey through data analytics, I have benefited tremendously from (an
 
 ### I Honor Native Land
 
-![Tallahassee Native Land](/img/land.png)
+![Tallahassee Native Land](img/land.png)
 
 I live and work in Tallahassee, Florida, on the traditional land of the **Apalachee**, **Muscogee**, and **Miccosukee** Peoples. I completed my graduate school work while living in Lancaster County PA, on the traditional land of the **Susquehannock** People, learning from the faculty at Michigan State University in East Lansing MI, built on the traditional land of the **Peoria**, **Anishinabewaki**, **Odawa**, and **Sauk** Peoples. I was born and lived my first two decades of life in the Roanoke Valley VA, on the traditional land of the **Tutelo** People. I share these land acknowledgements to demonstrate my commitment to learning and working to dismantle the ongoing legacies of settler colonialism.
 
