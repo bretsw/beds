@@ -1,7 +1,7 @@
---- 
+---
 title: "Data Analytics and Instructional Systems"
 author: "K. Bret Staudt Willet, Ph.D."
-date: "August 19, 2022"
+date: "2022"
 description: "Bookdown project for an open education resource (OER) book on Data Analytics."
 site: bookdown::bookdown_site
 output: bookdown::gitbook
@@ -10,58 +10,73 @@ bibliography: [book.bib]
 biblio-style: apalike
 link-citations: yes
 github-repo: bretsw/data-analytics
-cover-image: "img/edu-verse.jpg"
+cover-image: "img/data-heart.jpg"
 ---
+
+```{r setup, include=FALSE}
+htmltools::tagList(rmarkdown::html_dependency_font_awesome())
+```
 
 # Welcome {.unnumbered}
 
 ```{r, out.width = "840px", echo = FALSE, fig.align = "center"}
-knitr::include_graphics("img/edu-verse.jpg")
+knitr::include_graphics("img/data-heart.jpg")
 ```
 
-<center>**A Dissertation**</center>
-<center>Submitted to</center>
-<center>Michigan State University</center>
-<center>in partial fulfillment of the requirements</center>
-<center>for the degree of</center>
-<center>Educational Psychology and Educational Technology - Doctor of Philosophy</center>
-<center>2021</center>
-
-<hr>
+---
 
 ## License {.unnumbered}
 
-<center>Licensed under a CC BY-NC-SA 4.0 International License by<c/enter>
-<center>Kenneth Bret Staudt Willet</center>
-<center>2021</center>
+<center>
 
-<hr>
+Licensed under a CC BY-NC-SA 4.0 International License by<c/enter>
+
+<center>K. Bret Staudt Willet, Ph.D.</center>
+
+<center>2022</center>
+
+---
 
 ## Dedication {.unnumbered}
 
 <center><i>For my family, E<sup>3</sup>,</i></center>
+
 <center><i>who continually remind me of what really matters.</i></center>
 
-<hr>
+---
 
 ## Acknowledgments {.unnumbered}
 
 ### Thanks {.unnumbered}
 
-My dissertation research has been guided by my co-advisors and co-chairs, Matthew Koehler and Christine Greenhow, who I credit for teaching me how to think and write. I cannot thank them enough. Matt is able to get to the point of things more efficiently than anyone I’ve ever known, and Chris is the savviest planner I’ve ever met. They have been an incomparable pair of guides on my Ph.D. journey &mdash; the best advisors anyone could hope for. I also wish to express sincere thanks to my other two committee members, Ralph Putnam and Gail Richmond, whose wisdom and expertise have significantly inspired me and shaped my ideas. I have benefited tremendously (and wouldn’t be here without) daily chats with the so-called Koehler Diaspora (Josh Rosenberg, Mete Akcaoglu, and Spencer Greenhalgh) and my Ph.D. cohort-mate Paul Reimer. Paul also served as the second coder to test and improve inter-rater reliability for this study, not to mention a daily sounding board for the past five years. His friendship buoyed me through many rough patches; everyone needs a buddy like him in grad school. Finally, I am deeply indebted to Sharon Hammond, our program secretary, who has solved innumerable procedural issues for me over the years; she really gets all of us in the program to where we need to go.
+In my own journey through data analytics, I have benefited tremendously from (and wouldn't be here without) daily chats with the so-called **Koehler Diaspora** ([Josh Rosenberg](https://joshuamrosenberg.com/), [Mete Akcaoglu](https://www.meteakcaoglu.com/), [Spencer Greenhalgh](https://spencergreenhalgh.com/), and of course [Matthew Koehler](http://www.matt-koehler.com/)).
 
-### Land Acknowledgment {.unnumbered}
+---
 
-I have learned from the faculty at Michigan State University in East Lansing MI, built on the traditional land of the Peoria, Anishinabewaki, Odawa, and Sauk Peoples, and I have lived and completed my graduate schoolwork in Lancaster County PA, on the traditional land of the Susquehannock People. This acknowledgment demonstrates my commitment to continue the process of working to dismantle the ongoing legacies of settler colonialism. Learn more at [Native-Land.ca](https://native-land.ca/).
+### I Honor Native Land
+
+![Tallahassee Native Land](/img/land.png)
+
+I live and work in Tallahassee, Florida, on the traditional land of the **Apalachee**, **Muscogee**, and **Miccosukee** Peoples. I completed my graduate school work while living in Lancaster County PA, on the traditional land of the **Susquehannock** People, learning from the faculty at Michigan State University in East Lansing MI, built on the traditional land of the **Peoria**, **Anishinabewaki**, **Odawa**, and **Sauk** Peoples. I was born and lived my first two decades of life in the Roanoke Valley VA, on the traditional land of the **Tutelo** People. I share these land acknowledgements to demonstrate my commitment to learning and working to dismantle the ongoing legacies of settler colonialism.
+
+I recognize that these lands that have been important to my life remain scarred by the histories and ongoing legacies of settler colonial violence, dispossession, and removal. In spite of all of this, and with tremendous resilience, these Indigenous Nations have remained deeply connected to this territory, to their families, to their communities, and to their cultural ways of life. I recognize the ongoing relationships of care that these Indigenous Nations maintain with this land and extend my gratitude as I live and work as a humble and respectful guest upon their territory.
+
+I encourage you to learn about and amplify the contemporary work of the Indigenous nations whose land you are on and to endeavor to support Indigenous sovereignty in all the ways that you can. To start learning, I have found the [Native Land map](https://native-land.ca/) to be fascinating to explore, and the [Honor Native Land guide](https://usdac.us/nativeland) from the U.S. Department of Arts & Culture has many useful resources. Finally, if you are in the Tallahassee area, you may find this [list of resources from the Decolonize FSU group](https://linktr.ee/decolonizefsu) to be helpful.
 
 ### Tools {.unnumbered}
 
-This online version of my dissertation was created with the [bookdown](https://github.com/rstudio/bookdown) package (Xie, 2021a) in [R](https://www.r-project.org/), which in turn was built on top of [R Markdown](https://rmarkdown.rstudio.com/) and [knitr](https://github.com/yihui/knitr) (Xie, 2021b).
+This book was created with the [bookdown](https://github.com/rstudio/bookdown) package (Xie, 2021a) in [R](https://www.r-project.org/), which in turn was built on top of [R Markdown](https://rmarkdown.rstudio.com/) and [knitr](https://github.com/yihui/knitr) (Xie, 2021b).
 
-<hr>
+---
+
+## About the Author
+
+I am an Assistant Professor of [Instructional Systems & Learning Technologies](https://education.fsu.edu/instructional-systems-and-learning-technologies) at Florida State University. My research investigates self-directed learning, especially by teachers. I'm most interested in what happens when our students, learners, and trainees finish the instruction and training we design for them. What do they do after they walk out the door or log off? How do they continue to develop the knowledge, skills, and abilities they need? Where do they look for resources? Who do they talk to?
+
+---
 
 ## Contact {.unnumbered}
 
-Correspondence concerning this dissertation should be addressed to Bret Staudt Willet, Department of Counseling, Educational Psychology, and Special Education, Michigan State University, 620 Farm Lane, 513 Erickson Hall, East Lansing, MI 48824. E-mail: staudtwi@msu.edu
+Correspondence concerning this book should be addressed to Dr. Bret Staudt Willet, Department of Educational Psychology & Learning Systems, Florida State University, 1114 W. Call St., Stone Building #3210, Tallahassee, FL 32306.
 
-
+<i class="fa fa-envelope"></i> E-mail: [bret.staudtwillet\@fsu.edu](mailto:bret.staudtwillet@fsu.edu){.email}
