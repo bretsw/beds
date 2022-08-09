@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>5 Method | Data Analytics and Instructional Systems</title>
+  <meta name="description" content="Bookdown project for an open education resource (OER) book on Data Analytics." />
+  <meta name="generator" content="bookdown 0.27 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="5 Method | Data Analytics and Instructional Systems" />
+  <meta property="og:type" content="book" />
+  <meta property="og:image" content="/img/edu-verse.jpg" />
+  <meta property="og:description" content="Bookdown project for an open education resource (OER) book on Data Analytics." />
+  <meta name="github-repo" content="bretsw/data-analytics" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="5 Method | Data Analytics and Instructional Systems" />
+  
+  <meta name="twitter:description" content="Bookdown project for an open education resource (OER) book on Data Analytics." />
+  <meta name="twitter:image" content="/img/edu-verse.jpg" />
+
+<meta name="author" content="K. Bret Staudt Willet, Ph.D." />
+
+
+<meta name="date" content="2022-08-19" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="purpose-and-research-questions.html"/>
+<link rel="next" href="results.html"/>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+<script src="libs/kePrint-0.0.1/kePrint.js"></script>
+<link href="libs/lightable-0.0.1/lightable.css" rel="stylesheet" />
+<link href="libs/bsTable-3.3.7/bootstrapTable.min.css" rel="stylesheet" />
+<script src="libs/bsTable-3.3.7/bootstrapTable.js"></script>
+
+
+
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">Data Analytics and Instructional Systems</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Welcome</a>
+<ul>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#license"><i class="fa fa-check"></i>License</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#dedication"><i class="fa fa-check"></i>Dedication</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#acknowledgments"><i class="fa fa-check"></i>Acknowledgments</a>
+<ul>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#thanks"><i class="fa fa-check"></i>Thanks</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#land-acknowledgment"><i class="fa fa-check"></i>Land Acknowledgment</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#tools"><i class="fa fa-check"></i>Tools</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#contact"><i class="fa fa-check"></i>Contact</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="abstract.html"><a href="abstract.html"><i class="fa fa-check"></i>Abstract</a>
+<ul>
+<li class="chapter" data-level="" data-path="abstract.html"><a href="abstract.html#keywords"><i class="fa fa-check"></i>Keywords</a></li>
+</ul></li>
+<li class="chapter" data-level="1" data-path="introduction.html"><a href="introduction.html"><i class="fa fa-check"></i><b>1</b> Introduction</a>
+<ul>
+<li class="chapter" data-level="1.1" data-path="introduction.html"><a href="introduction.html#course-description"><i class="fa fa-check"></i><b>1.1</b> Course Description</a></li>
+<li class="chapter" data-level="1.2" data-path="introduction.html"><a href="introduction.html#learning-objectives"><i class="fa fa-check"></i><b>1.2</b> Learning Objectives</a></li>
+<li class="chapter" data-level="1.3" data-path="introduction.html"><a href="introduction.html#a-note-on-data-privacy"><i class="fa fa-check"></i><b>1.3</b> A Note on Data Privacy</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="framework.html"><a href="framework.html"><i class="fa fa-check"></i><b>2</b> Framework</a></li>
+<li class="chapter" data-level="3" data-path="review-of-literature.html"><a href="review-of-literature.html"><i class="fa fa-check"></i><b>3</b> Review of Literature</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="review-of-literature.html"><a href="review-of-literature.html#reasons-for-induction-support-systems"><i class="fa fa-check"></i><b>3.1</b> Reasons for Induction Support Systems</a>
+<ul>
+<li class="chapter" data-level="3.1.1" data-path="review-of-literature.html"><a href="review-of-literature.html#everything-is-new"><i class="fa fa-check"></i><b>3.1.1</b> Everything is New</a></li>
+<li class="chapter" data-level="3.1.2" data-path="review-of-literature.html"><a href="review-of-literature.html#ongoing-learning"><i class="fa fa-check"></i><b>3.1.2</b> Ongoing Learning</a></li>
+</ul></li>
+<li class="chapter" data-level="3.2" data-path="review-of-literature.html"><a href="review-of-literature.html#tools-for-support-during-induction"><i class="fa fa-check"></i><b>3.2</b> Tools for Support During Induction</a>
+<ul>
+<li class="chapter" data-level="3.2.1" data-path="review-of-literature.html"><a href="review-of-literature.html#formal-induction-programs"><i class="fa fa-check"></i><b>3.2.1</b> Formal Induction Programs</a></li>
+<li class="chapter" data-level="3.2.2" data-path="review-of-literature.html"><a href="review-of-literature.html#informal-learning-opportunities"><i class="fa fa-check"></i><b>3.2.2</b> Informal Learning Opportunities</a></li>
+</ul></li>
+<li class="chapter" data-level="3.3" data-path="review-of-literature.html"><a href="review-of-literature.html#people-sources-of-induction-support-systems"><i class="fa fa-check"></i><b>3.3</b> People: Sources of Induction Support Systems</a>
+<ul>
+<li class="chapter" data-level="3.3.1" data-path="review-of-literature.html"><a href="review-of-literature.html#in-school-connections"><i class="fa fa-check"></i><b>3.3.1</b> In-school Connections</a></li>
+<li class="chapter" data-level="3.3.2" data-path="review-of-literature.html"><a href="review-of-literature.html#out-of-school-connections"><i class="fa fa-check"></i><b>3.3.2</b> Out-of-school Connections</a></li>
+</ul></li>
+<li class="chapter" data-level="3.4" data-path="review-of-literature.html"><a href="review-of-literature.html#spaces-locations-of-induction-support-systems"><i class="fa fa-check"></i><b>3.4</b> Spaces: Locations of Induction Support Systems</a>
+<ul>
+<li class="chapter" data-level="3.4.1" data-path="review-of-literature.html"><a href="review-of-literature.html#local-spaces"><i class="fa fa-check"></i><b>3.4.1</b> Local Spaces</a></li>
+<li class="chapter" data-level="3.4.2" data-path="review-of-literature.html"><a href="review-of-literature.html#social-media-spaces"><i class="fa fa-check"></i><b>3.4.2</b> Social Media Spaces</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="purpose-and-research-questions.html"><a href="purpose-and-research-questions.html"><i class="fa fa-check"></i><b>4</b> Purpose and Research Questions</a></li>
+<li class="chapter" data-level="5" data-path="method.html"><a href="method.html"><i class="fa fa-check"></i><b>5</b> Method</a>
+<ul>
+<li class="chapter" data-level="5.1" data-path="method.html"><a href="method.html#participants"><i class="fa fa-check"></i><b>5.1</b> Participants</a></li>
+<li class="chapter" data-level="5.2" data-path="method.html"><a href="method.html#data-collection"><i class="fa fa-check"></i><b>5.2</b> Data Collection</a></li>
+<li class="chapter" data-level="5.3" data-path="method.html"><a href="method.html#data-analysis"><i class="fa fa-check"></i><b>5.3</b> Data Analysis</a></li>
+<li class="chapter" data-level="5.4" data-path="method.html"><a href="method.html#trustworthiness-of-research"><i class="fa fa-check"></i><b>5.4</b> Trustworthiness of Research</a></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="results.html"><a href="results.html"><i class="fa fa-check"></i><b>6</b> Results</a>
+<ul>
+<li class="chapter" data-level="6.1" data-path="results.html"><a href="results.html#rq1.-reasons-for-constructing-induction-support-systems"><i class="fa fa-check"></i><b>6.1</b> RQ1. Reasons for Constructing Induction Support Systems</a>
+<ul>
+<li class="chapter" data-level="6.1.1" data-path="results.html"><a href="results.html#change"><i class="fa fa-check"></i><b>6.1.1</b> Change</a></li>
+<li class="chapter" data-level="6.1.2" data-path="results.html"><a href="results.html#scarcity-of-resources"><i class="fa fa-check"></i><b>6.1.2</b> Scarcity of Resources</a></li>
+<li class="chapter" data-level="6.1.3" data-path="results.html"><a href="results.html#conflicting-teaching-beliefs"><i class="fa fa-check"></i><b>6.1.3</b> Conflicting Teaching Beliefs</a></li>
+</ul></li>
+<li class="chapter" data-level="6.2" data-path="results.html"><a href="results.html#rq2.-tools-in-early-career-teachers-induction-support-systems"><i class="fa fa-check"></i><b>6.2</b> RQ2. Tools in Early Career Teachers’ Induction Support Systems</a>
+<ul>
+<li class="chapter" data-level="6.2.1" data-path="results.html"><a href="results.html#tools-for-planning"><i class="fa fa-check"></i><b>6.2.1</b> Tools for Planning</a></li>
+<li class="chapter" data-level="6.2.2" data-path="results.html"><a href="results.html#tools-for-enacting-practice"><i class="fa fa-check"></i><b>6.2.2</b> Tools for Enacting Practice</a></li>
+<li class="chapter" data-level="6.2.3" data-path="results.html"><a href="results.html#tools-for-connecting-socially"><i class="fa fa-check"></i><b>6.2.3</b> Tools for Connecting Socially</a></li>
+</ul></li>
+<li class="chapter" data-level="6.3" data-path="results.html"><a href="results.html#rq3.-people-in-early-career-teachers-induction-support-systems"><i class="fa fa-check"></i><b>6.3</b> RQ3. People in Early Career Teachers’ Induction Support Systems</a>
+<ul>
+<li class="chapter" data-level="6.3.1" data-path="results.html"><a href="results.html#in-school-connections-1"><i class="fa fa-check"></i><b>6.3.1</b> In-school Connections</a></li>
+<li class="chapter" data-level="6.3.2" data-path="results.html"><a href="results.html#out-of-school-connections-1"><i class="fa fa-check"></i><b>6.3.2</b> Out-of-school Connections</a></li>
+</ul></li>
+<li class="chapter" data-level="6.4" data-path="results.html"><a href="results.html#rq4.-social-media-as-spaces-for-constructing-induction-support-systems"><i class="fa fa-check"></i><b>6.4</b> RQ4. Social Media as Spaces for Constructing Induction Support Systems</a>
+<ul>
+<li class="chapter" data-level="6.4.1" data-path="results.html"><a href="results.html#possibilities-for-constructing-induction-support-systems-in-social-media-spaces"><i class="fa fa-check"></i><b>6.4.1</b> Possibilities for Constructing Induction Support Systems in Social Media Spaces</a></li>
+<li class="chapter" data-level="6.4.2" data-path="results.html"><a href="results.html#boundaries-around-social-media-use"><i class="fa fa-check"></i><b>6.4.2</b> Boundaries Around Social Media Use</a></li>
+<li class="chapter" data-level="6.4.3" data-path="results.html"><a href="results.html#ways-of-engaging-on-social-media"><i class="fa fa-check"></i><b>6.4.3</b> Ways of Engaging on Social Media</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="7" data-path="discussion.html"><a href="discussion.html"><i class="fa fa-check"></i><b>7</b> Discussion</a>
+<ul>
+<li class="chapter" data-level="7.1" data-path="discussion.html"><a href="discussion.html#consistency-of-results"><i class="fa fa-check"></i><b>7.1</b> Consistency of Results</a></li>
+<li class="chapter" data-level="7.2" data-path="discussion.html"><a href="discussion.html#variance-of-results"><i class="fa fa-check"></i><b>7.2</b> Variance of Results</a></li>
+</ul></li>
+<li class="chapter" data-level="8" data-path="implications.html"><a href="implications.html"><i class="fa fa-check"></i><b>8</b> Implications</a>
+<ul>
+<li class="chapter" data-level="8.1" data-path="implications.html"><a href="implications.html#implications-for-early-career-teachers"><i class="fa fa-check"></i><b>8.1</b> Implications for Early Career Teachers</a></li>
+<li class="chapter" data-level="8.2" data-path="implications.html"><a href="implications.html#implications-for-teacher-educators-and-education-leaders"><i class="fa fa-check"></i><b>8.2</b> Implications for Teacher Educators and Education Leaders</a></li>
+<li class="chapter" data-level="8.3" data-path="implications.html"><a href="implications.html#implications-for-researchers"><i class="fa fa-check"></i><b>8.3</b> Implications for Researchers</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
+<li class="divider"></li>
+<li><a href="https://bretsw.com" target="blank">K. Bret Staudt Willet</a></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Data Analytics and Instructional Systems</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="method" class="section level1 hasAnchor" number="5">
+<h1><span class="header-section-number">5</span> Method<a href="method.html#method" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<p>In this study, I interviewed early career teachers to ask them about their experiences constructing support systems of tools, people, and spaces during induction and using social media for this purpose. I conducted interviews to the point of <em>theoretical saturation</em> (Glaser &amp; Strauss, 1967; Glesne, 2016), when three successive interviews did not seem to introduce new themes.</p>
+<div id="participants" class="section level2 hasAnchor" number="5.1">
+<h2><span class="header-section-number">5.1</span> Participants<a href="method.html#participants" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Participants were U.S.-based PK-12 teachers who had been working in education for three years or less. I recruited nine participants from two graduate programs in education at Michigan State University (Table 1); all names are pseudonyms. Both programs are fully online (even prior to COVID-19) and encourage students to use social media for professional learning. Eight of the interviewees were white; one was African American (Simone). Seven were women; two were men (Mike and Wallace). Seven had undergraduate teacher preparation; two did not (Blair and Taylor). Although this group is a convenience sample because of my connections to these programs, it is also a purposeful sample intended to provide information-rich cases (Lincoln &amp; Guba, 1985) across geographic location, students’ socioeconomic status (SES), and teachers’ assignments (i.e., grade level, subject, and classroom role).</p>
+<p><strong>Table 1.</strong> <em>Attributes of Interview Participants</em></p>
+<table class="table" style="font-size: 14px; margin-left: auto; margin-right: auto;">
+<thead>
+<tr>
+<th style="text-align:left;">
+Name
+</th>
+<th style="text-align:left;">
+Location
+</th>
+<th style="text-align:left;">
+School Type
+</th>
+<th style="text-align:left;">
+Student SES
+</th>
+<th style="text-align:left;">
+Teacher Experience
+</th>
+<th style="text-align:left;">
+Grade Level
+</th>
+<th style="text-align:left;">
+Subject
+</th>
+<th style="text-align:left;">
+Role
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;font-weight: bold;">
+Amelia
+</td>
+<td style="text-align:left;">
+Suburban, West
+</td>
+<td style="text-align:left;">
+Public
+</td>
+<td style="text-align:left;">
+Low
+</td>
+<td style="text-align:left;">
+3rd year
+</td>
+<td style="text-align:left;">
+Elementary (K, 5th)
+</td>
+<td style="text-align:left;">
+Music
+</td>
+<td style="text-align:left;">
+Itinerant Specialist
+</td>
+</tr>
+<tr>
+<td style="text-align:left;font-weight: bold;">
+Anne
+</td>
+<td style="text-align:left;">
+Urban, Midwest
+</td>
+<td style="text-align:left;">
+Public
+</td>
+<td style="text-align:left;">
+Low
+</td>
+<td style="text-align:left;">
+3rd year
+</td>
+<td style="text-align:left;">
+Elementary (1st)
+</td>
+<td style="text-align:left;">
+All
+</td>
+<td style="text-align:left;">
+Classroom
+</td>
+</tr>
+<tr>
+<td style="text-align:left;font-weight: bold;">
+Blair
+</td>
+<td style="text-align:left;">
+Urban, Midwest
+</td>
+<td style="text-align:left;">
+Private
+</td>
+<td style="text-align:left;">
+High
+</td>
+<td style="text-align:left;">
+3rd year
+</td>
+<td style="text-align:left;">
+Elementary (PreK-5th)
+</td>
+<td style="text-align:left;">
+Tech
+</td>
+<td style="text-align:left;">
+Support Staff
+</td>
+</tr>
+<tr>
+<td style="text-align:left;font-weight: bold;">
+Hallie
+</td>
+<td style="text-align:left;">
+Suburban, Midwest
+</td>
+<td style="text-align:left;">
+Public
+</td>
+<td style="text-align:left;">
+High
+</td>
+<td style="text-align:left;">
+1st year
+</td>
+<td style="text-align:left;">
+Elementary (3rd)
+</td>
+<td style="text-align:left;">
+All
+</td>
+<td style="text-align:left;">
+Classroom
+</td>
+</tr>
+<tr>
+<td style="text-align:left;font-weight: bold;">
+Julie
+</td>
+<td style="text-align:left;">
+Rural, Midwest
+</td>
+<td style="text-align:left;">
+Public
+</td>
+<td style="text-align:left;">
+Low
+</td>
+<td style="text-align:left;">
+3rd year
+</td>
+<td style="text-align:left;">
+Middle (8th)
+</td>
+<td style="text-align:left;">
+ELA
+</td>
+<td style="text-align:left;">
+Classroom
+</td>
+</tr>
+<tr>
+<td style="text-align:left;font-weight: bold;">
+Mike
+</td>
+<td style="text-align:left;">
+Suburban, Midwest
+</td>
+<td style="text-align:left;">
+Public
+</td>
+<td style="text-align:left;">
+High
+</td>
+<td style="text-align:left;">
+3rd year
+</td>
+<td style="text-align:left;">
+High School (9th-12th)
+</td>
+<td style="text-align:left;">
+Math
+</td>
+<td style="text-align:left;">
+Classroom
+</td>
+</tr>
+<tr>
+<td style="text-align:left;font-weight: bold;">
+Simone
+</td>
+<td style="text-align:left;">
+Suburban, Midwest
+</td>
+<td style="text-align:left;">
+Public
+</td>
+<td style="text-align:left;">
+High
+</td>
+<td style="text-align:left;">
+2nd year
+</td>
+<td style="text-align:left;">
+Elementary (1st)
+</td>
+<td style="text-align:left;">
+All
+</td>
+<td style="text-align:left;">
+Classroom
+</td>
+</tr>
+<tr>
+<td style="text-align:left;font-weight: bold;">
+Taylor
+</td>
+<td style="text-align:left;">
+Suburban, West
+</td>
+<td style="text-align:left;">
+Private
+</td>
+<td style="text-align:left;">
+High
+</td>
+<td style="text-align:left;">
+3rd year
+</td>
+<td style="text-align:left;">
+Elementary (K-4th)
+</td>
+<td style="text-align:left;">
+Physical Education
+</td>
+<td style="text-align:left;">
+Specialist
+</td>
+</tr>
+<tr>
+<td style="text-align:left;font-weight: bold;">
+Wallace
+</td>
+<td style="text-align:left;">
+Suburban, Midwest
+</td>
+<td style="text-align:left;">
+Public
+</td>
+<td style="text-align:left;">
+Low
+</td>
+<td style="text-align:left;">
+2nd year
+</td>
+<td style="text-align:left;">
+High School (10th-11th)
+</td>
+<td style="text-align:left;">
+ELA
+</td>
+<td style="text-align:left;">
+Classroom
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="data-collection" class="section level2 hasAnchor" number="5.2">
+<h2><span class="header-section-number">5.2</span> Data Collection<a href="method.html#data-collection" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>I developed the interview protocol by recruiting four early-career teachers to pilot an initial interview protocol. I conducted pilot interviews using the video-communication software Zoom (<a href="https://zoom.us/" class="uri">https://zoom.us/</a>), accepting the affordances and constraints of a video-based modality (Seitz, 2016). I asked pilot interviewees to critically evaluate the interview questions and give feedback on how questions could be improved (Glesne, 2016). In the final interview protocol (Appendix D), I grouped interview questions to parallel the study’s research questions, starting with asking about challenges and struggles of being an early career teacher, whether they have sought support for these (and from whom), and whether they use social media to access these supports.</p>
+<p>To recruit the final interview participants (distinct from the pilot interviewees), I emailed the two graduate programs’ student listservs (Appendix A), asking prospective participants to complete an online survey to indicate their interest (Appendix B). I again hosted one-on-one, semi-structured interviews on Zoom, using built-in functionality to record audio and video. I also took my own notes during the interviews. At the start of each interview, I read aloud an informed-consent statement (Appendix C).</p>
+</div>
+<div id="data-analysis" class="section level2 hasAnchor" number="5.3">
+<h2><span class="header-section-number">5.3</span> Data Analysis<a href="method.html#data-analysis" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>After completing interviews, I transcribed audio recordings into text. I used the automated transcription software Otter (<a href="https://otter.ai/" class="uri">https://otter.ai/</a>) to provide an initial audio-to-text draft. I manually corrected the transcription while listening to the audio and pausing frequently. I then analyzed transcripts in ATLAS.ti (<a href="https://atlasti.com/" class="uri">https://atlasti.com/</a>), qualitative analysis software that allowed me to code, refine, track, and compare themes across interviews.</p>
+<p>I followed Saldaña’s (2016) procedures for open-ended qualitative analysis, using an <em>eclectic coding</em> approach. I worked through several distinct “cycles” of analysis; each cycle was an iterative step of coding and recoding the data. Starting with several a priori themes drawn from the literature (e.g., sharing/finding resources, sharing ideas/asking questions), I assigned initial <em>codes</em> (i.e., a summative word or phrase) to <em>quotations</em> (i.e., distinct sections defined by topic of conversation) that captured the essential essence of that section of text (Saldaña, 2016). Over the course of subsequent cycles, I cut a priori codes that did not usefully describe the content of what interview participants said (e.g., “self-seeking contributors,” drawn from Prestridge [2019]), I added emergent codes drawn from participants’ words (e.g., “not encouraged, but everyone uses TeachersPayTeachers”), and I synthesized codes into new wholes (e.g., “browsing”), called <em>categories</em>. With each new coding cycle, the number of codes decreased and became more focused. I used 288 codes in the first coding cycle, which I synthesized into 160 codes during the second coding cycle, and so on. In total, I worked through five distinct coding cycles to identify 11 emergent categories in the final codebook (Appendix E).</p>
+<p>As an illustrative example of the coding process, in the first cycle, I began with a priori codes like “sharing/finding resources” and “sharing ideas/asking questions.” In later cycles, I rearranged these two codes into simpler categories of “sharing” and “finding.” I also established numerous in vivo codes in the first cycle, such as “not encouraged, but everyone uses TeachersPayTeachers” and “I’m the worst when it comes to social media.” Later, these two codes were subsumed into the category of “finding.”</p>
+</div>
+<div id="trustworthiness-of-research" class="section level2 hasAnchor" number="5.4">
+<h2><span class="header-section-number">5.4</span> Trustworthiness of Research<a href="method.html#trustworthiness-of-research" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>I used “systematic procedures, employing rigorous standards and clearly identified procedures” (Creswell &amp; Miller, 2000, p. 129) to establish research validity. First, I used <em>triangulation</em>, “a systematic process of sorting through the data to find common themes or categories by eliminating overlapping areas” (Creswell &amp; Miller, 2000, p. 127), in the process of looking for themes across participants, creating codes, and making revisions across five distinct coding cycles.</p>
+<p>Second, I created an <em>audit trail</em> by documenting my process in a series of analytic memos (Creswell &amp; Miller, 2000). From these memos I established a codebook (Appendix E), where I named categories, provided definitions, and gave examples. In the memos, I recorded key observations, connections, and inferences made during the coding process. For instance, in one memo from the first coding cycle, I wrote:</p>
+<blockquote>
+<p>I’m going to need to tease apart two common, initial codes related to PURPOSE: (a) sharing/finding resources and (b) sharing ideas/asking questions. Seems like the difference is a focus on inspiration (big ideas and resources) vs. interaction (asking and answering). Potential new codes:</p>
+<ul>
+<li>Grabbing resources (agency low)</li>
+<li>Browsing for ideas/inspiration (agency medium)</li>
+<li>Asking questions (agency high)</li>
+<li>Sharing ideas and resources (agency high)</li>
+</ul>
+</blockquote>
+<p>That is, in that very first phase of qualitative analysis, I had two codes (i.e., sharing/finding resources and sharing ideas/asking questions) that overlapped significantly while also seeming too broad. I worried that the breadth of these codes would obscure more nuanced processes. Two of my final categories, “browsing” and “asking,” first emerged from this early memo.</p>
+<p>Third, after completing five coding cycles, I recruited a second coder to test the <em>inter-rater reliability</em> of categories in the codebook. At this stage, I had identified 264 total quotations across the nine interviews. The mean number of quotations per interviewee was 29.33 (<em>SD</em> = 3.71; median = 30), with a range of 24 to 35. I randomly sampled 10% (<em>n</em> = 27) of the quotations, which the second coder and I independently analyzed, following the codebook. We then met to discuss discrepancies and update the codebook. As an example, during this process, I decided to remove the categories “teacher capital” and “observational learning.” These proved to be difficult concepts for two coders to observe and code consistently.</p>
+<p>The second coder and I repeated this pattern of analyzing a sample and discussing discrepancies five times, coding a new sample in each round, for a total of 135 quotations. In the fifth and final round, our percent agreement ranged from 88.89% to 100% and Cohen’s kappa ranged 0.65-1.00, representing “substantial” to “nearly perfect” inter-rater agreement (Landis &amp; Koch, 1977, p. 165). With a finalized codebook and acceptable reliability scores, I recoded the entire corpus of interview data in a sixth distinct coding cycle.</p>
+<p>Finally, I conducted <em>member checks</em> by sending a draft of the results section to interviewees, asking them if they would like to provide any clarification to how I represented them in the reported findings (Creswell &amp; Miller, 2000). I received responses from everyone, and they all affirmed their words as I reported them. The only correction I received was from Anne, who clarified that it was her grade-level partner teacher who had left midyear, not her mentor teacher.</p>
+
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="purpose-and-research-questions.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="results.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "serif",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": null,
+"search": {
+"engine": "fuse",
+"options": null
+},
+"toc": {
+"collapse": "section",
+"scroll_highlight": true
+}
+});
+});
+</script>
+
+</body>
+
+</html>

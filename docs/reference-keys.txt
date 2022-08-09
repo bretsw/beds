@@ -1,0 +1,11 @@
+introduction
+book-description
+learning-objectives
+a-note-on-data-privacy
+performance-analytics
+learning-analytics
+web-analytics
+data-visualization
+ethics-in-analytics
+future-of-analytics
+cases-for-discussion

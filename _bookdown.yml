@@ -1,0 +1,6 @@
+book_filename: "data-analytics"
+chapter_name: ""
+repo: https://github.com/bretsw/data-analytics
+output_dir: docs
+new_session: no
+delete_merged_file: true

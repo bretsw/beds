@@ -1,0 +1,9 @@
+# Abstract {.unnumbered}
+
+This book addresses the collection and use of data for decision making and assessment in learning and human performance contexts. Students will get hands-on experience with small data sets and will learn how big data sets are collected and used. The book will explore the role that analytics plays in education and related fields, identify the types of questions that might be answered via both quantitative and qualitative analytics, and engage in analytic- related problem solving. This book will examine case studies and provide students with practice using a variety of tools and services that can help them collect and analyze learning and web data. There are no pre-requisites, and although data will be used prior experience with statistics or research design is not necessary.
+
+<hr>
+
+## Keywords {.unnumbered}
+
+data analytics, performance improvement, performance analytics, learning analytics, web analytics, social media analytics, big data, data visualization, data ethics, emerging technologies

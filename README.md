@@ -1,4 +1,4 @@
-# Data Analytics in Instructional Systems
+# Data Analytics and Instructional Systems
 
 by K. Bret Staudt Willet, Ph.D.
 
@@ -7,10 +7,10 @@ by K. Bret Staudt Willet, Ph.D.
 ## Chaper list:
 
 1. Introduction to Analytics
-2. Performance Analytics 
+2. Performance Analytics
 3. Learning Analytics
 4. Web Analytics
 5. Data Visualization
-6. Ethics Analytics
+6. Ethics in Analytics
 7. Future of Analytics
 8. Cases for Discussion

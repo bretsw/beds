@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Mincho&family=Shippori+Mincho+B1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
+h1, h2, h3 {
+  font-family: "Lato";
+  color: #D68C45;
+}
+
+h1 {
+  font-size: 30px !important;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 20px !important;
+}
+
+h3 {
+  font-size: 16px !important;
+}
+
+body {
+  font-family: "Cormorant Garamond", serif;
+  color: #23373B;
+  font-size: 18px !important;
+}
+
+a {
+color: #23373B;
+}
+
+dt {
+  color: #23373B;
+}
+
+.book .book-summary {
+  background-color: #23373B;
+}
+
+.book .book-summary ul.summary li a:hover {
+  background-color: #ffffff;
+  color: #ffbc49;
+}
+
+.book .book-summary {
+  background-color: #23373B;
+  font-family: "Lato";
+}
+
+.book .book-summary ul.summary li a {
+  color: #aaa;
+}
+
+.book .book-summary ul.summary li.active>a {
+  color: #ffffff;
+}
+
+.book .book-summary ul.summary li a:hover {
+  background-color: #ffffff;
+  color: #23373B;
+}
+
+.book .book-summary .booksearch li a {
+  color: #ffffff;
+}
