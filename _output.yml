@@ -7,10 +7,10 @@ bookdown::gitbook:
       collapse: section
       scroll_highlight: yes
       before: |
-        <li><a href="./">Data Analytics and Instructional Systems</a></li>
+        <li><a href="./"><em>Data Analytics <br> & Instructional Systems </em></a></li>
       after: |
-        <li><a href="https://bretsw.com" target="blank">K. Bret Staudt Willet</a></li>
-        <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+        <li><a href="https://bretsw.com" target="blank"><b>by Bret Staudt Willet</b></a></li>
+        <li><a href="https://pkgs.rstudio.com/bookdown/" target="blank">Published with bookdown</a></li>
     fontsettings:
       family: serif
 bookdown::pdf_book:

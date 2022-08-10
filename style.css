@@ -1,72 +1,89 @@
-@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Shippori+Mincho&family=Shippori+Mincho+B1&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
 
-h1, h2, h3 {
-  font-family: "Lato";
-  color: #464646;
-}
-
-h1 {
-  font-size: 32px !important;
-  font-weight: 700;
-}
-
-h2 {
-  font-size: 24px !important;
-  font-weight: 600;
-}
-
-h3 {
-  font-size: 18px !important;
+title {
+  font-family: "Cormorant Garamond", Serif;
+  color: #782f40; /*FSU garnet*/
+  font-size: 48px !important;
   font-weight: 500;
 }
 
+h1, h2, h3 {
+  font-family: "Raleway", Sans-Serif;
+}
+
+h1 {
+  color:#1f1f1f; /*dark gray*/
+  font-size: 48px !important;
+  font-weight: 400;
+}
+
+h2 {
+  color:#1f1f1f; /*dark gray*/
+  font-size: 32px !important;
+  font-weight: 200;
+}
+
+h3 {
+  color:#1f1f1f; /*dark gray*/
+  font-size: 24px !important;
+  font-weight: 400;
+}
+
 body {
-  font-family: "Cormorant Garamond", serif;
-  color: #464646;
+  background-color: #f3eee2 !important; /*light gold*/
+  font-family: "Cormorant Garamond", Serif;
+  color: #464646; /*gray*/
   font-size: 18px !important;
   font-weight: 300;
 }
 
 a {
-color: #782f40;
+  color: #782f40; /*FSU garnet*/
 }
 
 dt {
-  color: #464646;
+  color: #782f40; /*FSU garnet*/
+}
+
+code {
+  font-family: 'Source Code Pro', Courier, monospace;
+  color:#1f1f1f; /*dark gray*/
+  background-color: #f3eee2; /*light gold*/
+  border: 2px solid #ceb888; /*FSU gold*/
+  border-radius: 2px;
 }
 
 .book .book-summary {
-  background-color: #782f40;
+  background-color: #f3eee2; /*light gold*/
 }
 
 .book .book-summary ul.summary li a:hover {
-  background-color: #f3eee2;
-  color: #782f40;
+  background-color: #f3eee2; /*light gold*/
+  color: #782f40; /*FSU garnet*/
 }
 
 .book .book-summary {
-  background-color: #23373B;
-  font-family: "Lato";
+  background-color: #ceb888; /*FSU gold*/
+  font-family: "Cormorant Garamond", Serif;
 }
 
 .book .book-summary ul.summary li a {
-  color: #782f40;
+  color: #782f40; /*FSU garnet*/
+  font-weight: 500;
 }
 
 .book .book-summary ul.summary li.active>a {
-  color: #ceb888;
+  color:#1f1f1f; /*dark gray*/
+  font-weight: 900;
 }
 
 .book .book-summary ul.summary li a:hover {
-  background-color: #f3eee2;
-  color: #782f40;
+  background-color: #f3eee2; /*light gold*/
+  color: #782f40; /*FSU garnet*/
 }
 
 .book .book-summary .booksearch li a {
-  color: #f3eee2;
+  color: #f3eee2; /*light gold*/
 }

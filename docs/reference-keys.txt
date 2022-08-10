@@ -1,5 +1,3 @@
-i-honor-native-land
-about-the-author
 introduction
 book-description
 learning-objectives

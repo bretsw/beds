@@ -1,5 +1,5 @@
 ---
-title: "Data Analytics and Instructional Systems"
+title: "Data Analytics <br> & Instructional Systems"
 author: "K. Bret Staudt Willet, Ph.D."
 date: "2022"
 description: "Bookdown project for an open education resource (OER) book on Data Analytics."
@@ -27,21 +27,13 @@ knitr::include_graphics("img/data-heart.jpg")
 
 ## License {.unnumbered}
 
-<center>
-
-Licensed under a CC BY-NC-SA 4.0 International License by<c/enter>
-
-<center>K. Bret Staudt Willet, Ph.D.</center>
-
-<center>2022</center>
+Licensed in 2022 under a CC BY-NC-SA 4.0 International License by K. Bret Staudt Willet, Ph.D.
 
 ---
 
 ## Dedication {.unnumbered}
 
-<center><i>For my family, E<sup>3</sup>,</i></center>
-
-<center><i>who continually remind me of what really matters.</i></center>
+For my family, E<sup>3</sup>, who continually remind me of what really matters.
 
 ---
 
@@ -53,7 +45,7 @@ In my own journey through data analytics, I have benefited tremendously from (an
 
 ---
 
-### I Honor Native Land
+### Honor Native Land {.unnumbered}
 
 ![Tallahassee Native Land](img/land.png)
 
@@ -69,14 +61,14 @@ This book was created with the [bookdown](https://github.com/rstudio/bookdown) p
 
 ---
 
-## About the Author
+## About the Author {.unnumbered}
 
 I am an Assistant Professor of [Instructional Systems & Learning Technologies](https://education.fsu.edu/instructional-systems-and-learning-technologies) at Florida State University. My research investigates self-directed learning, especially by teachers. I'm most interested in what happens when our students, learners, and trainees finish the instruction and training we design for them. What do they do after they walk out the door or log off? How do they continue to develop the knowledge, skills, and abilities they need? Where do they look for resources? Who do they talk to?
 
 ---
 
-## Contact {.unnumbered}
+### Contact {.unnumbered}
 
 Correspondence concerning this book should be addressed to Dr. Bret Staudt Willet, Department of Educational Psychology & Learning Systems, Florida State University, 1114 W. Call St., Stone Building #3210, Tallahassee, FL 32306.
 
-<i class="fa fa-envelope"></i> E-mail: [bret.staudtwillet\@fsu.edu](mailto:bret.staudtwillet@fsu.edu){.email}
+<i class="fa fa-envelope"></i> [Email](mailto:bret.staudtwillet@fsu.edu){.email}
