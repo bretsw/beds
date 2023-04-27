@@ -1,16 +1,16 @@
 ---
-title: "Data Analytics <br> & Instructional Systems"
+title: "Becoming Educational Data Scientists"
 author: "K. Bret Staudt Willet, Ph.D."
-date: "2022"
-description: "Bookdown project for an open education resource (OER) book on Data Analytics."
+date: "2023"
+description: "Bookdown project for an open education resource (OER) book on Educational Data Science"
 site: bookdown::bookdown_site
 output: bookdown::gitbook
 documentclass: book
 bibliography: [book.bib]
 biblio-style: apalike
 link-citations: yes
-github-repo: bretsw/data-analytics
-cover-image: "img/data-heart.jpg"
+github-repo: bretsw/beds
+cover-image: "img/sandbox1.png"
 ---
 
 ```{r setup, include=FALSE}
@@ -20,14 +20,14 @@ htmltools::tagList(rmarkdown::html_dependency_font_awesome())
 # Welcome {.unnumbered}
 
 ```{r, out.width = "840px", echo = FALSE, fig.align = "center"}
-knitr::include_graphics("img/data-heart.jpg")
+knitr::include_graphics("img/sandbox1.png")
 ```
 
 ---
 
 ## License {.unnumbered}
 
-Licensed in 2022 under a CC BY-NC-SA 4.0 International License by K. Bret Staudt Willet, Ph.D.
+Licensed in 2023 under a CC BY-NC-SA 4.0 International License by K. Bret Staudt Willet, Ph.D.
 
 ---
 
@@ -65,7 +65,7 @@ This book was created with the [bookdown](https://github.com/rstudio/bookdown) p
 
 ## About the Author {.unnumbered}
 
-I am an Assistant Professor of [Instructional Systems & Learning Technologies](https://education.fsu.edu/instructional-systems-and-learning-technologies) at Florida State University. My research investigates self-directed learning, especially by teachers. I'm most interested in what happens when our students, learners, and trainees finish the instruction and training we design for them. What do they do after they walk out the door or log off? How do they continue to develop the knowledge, skills, and abilities they need? Where do they look for resources? Who do they talk to?
+I am an Assistant Professor of [Instructional Systems & Learning Technologies](https://education.fsu.edu/instructional-systems-and-learning-technologies) at Florida State University. My research investigates self-directed learning, a subset of informal and networked learning. I am fascinated by how people figure things out on their own. I’m most interested in what happens when students, learners, and trainees finish formal instruction, preparation, and training. What do they do after they walk out the door or log off? How do they continue to develop their knowledge, skills, and abilities? Where do they look for resources? Who do they talk to?
 
 ---
 

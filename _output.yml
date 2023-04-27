@@ -7,7 +7,7 @@ bookdown::gitbook:
       collapse: section
       scroll_highlight: yes
       before: |
-        <li><a href="./"><em>Data Analytics <br> & Instructional Systems </em></a></li>
+        <li><a href="./"><em>Becoming Educational Data Scientists</em></a></li>
       after: |
         <li><a href="https://bretsw.com" target="blank"><b>by Bret Staudt Willet</b></a></li>
         <li><a href="https://pkgs.rstudio.com/bookdown/" target="blank">Published with bookdown</a></li>

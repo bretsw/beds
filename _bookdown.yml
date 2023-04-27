@@ -1,6 +1,6 @@
-book_filename: "data-analytics"
+book_filename: "becoming-eds"
 chapter_name: ""
-repo: https://github.com/bretsw/data-analytics
+repo: https://github.com/bretsw/beds
 output_dir: docs
 new_session: no
 delete_merged_file: true

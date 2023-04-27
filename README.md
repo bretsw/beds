@@ -1,8 +1,8 @@
-# Data Analytics and Instructional Systems
+# Becoming Educational Data Scientists
 
 by K. Bret Staudt Willet, Ph.D.
 
-*Bookdown project for an open education resource (OER) book on Data Analytics*
+*Bookdown project for an open education resource (OER) book on Educational Data Science*
 
 ## Chaper list:
 
@@ -14,3 +14,5 @@ by K. Bret Staudt Willet, Ph.D.
 6. Ethics in Analytics
 7. Future of Analytics
 8. Cases for Discussion
+9. Practice Data Sets
+10. Resources for Further Learning
