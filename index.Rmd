@@ -55,6 +55,8 @@ I recognize that these lands that have been important to my life remain scarred 
 
 I encourage you to learn about and amplify the contemporary work of the Indigenous nations whose land you are on and to endeavor to support Indigenous sovereignty in all the ways that you can. To start learning, I have found the [Native Land map](https://native-land.ca/) to be fascinating to explore, and the [Honor Native Land guide](https://usdac.us/nativeland) from the U.S. Department of Arts & Culture has many useful resources. Finally, if you are in the Tallahassee area, you may find this [list of resources from the Decolonize FSU group](https://linktr.ee/decolonizefsu) to be helpful.
 
+---
+
 ### Tools {.unnumbered}
 
 This book was created with the [bookdown](https://github.com/rstudio/bookdown) package (Xie, 2021a) in [R](https://www.r-project.org/), which in turn was built on top of [R Markdown](https://rmarkdown.rstudio.com/) and [knitr](https://github.com/yihui/knitr) (Xie, 2021b).
