@@ -1,7 +1,7 @@
 ---
 title: "Becoming Educational Data Scientists"
 author: "K. Bret Staudt Willet, Ph.D."
-date: "2023"
+date: "2024"
 description: "Bookdown project for an open education resource (OER) book on Educational Data Science"
 site: bookdown::bookdown_site
 output: bookdown::gitbook
@@ -27,7 +27,7 @@ knitr::include_graphics("img/sandbox1.png")
 
 ## License {.unnumbered}
 
-Licensed in 2023 under a CC BY-NC-SA 4.0 International License by K. Bret Staudt Willet, Ph.D.
+Licensed in 2024 under a CC BY-NC-SA 4.0 International License by K. Bret Staudt Willet, Ph.D.
 
 ---
 
